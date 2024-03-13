@@ -1,4 +1,13 @@
- /* Asterisk wildcard selector to override default styles added by the browser */
+ 
+ /* Google fonts import */
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&display=swap');
+ 
+
+
+
+/*Asterisk wildcard selector to override default styles added by the browser */
  
  * { padding: 0;
     margin: 0;
@@ -22,7 +31,7 @@ body {min-height: 100vh;
 
 /* Main content */
  main { background-color: lightblue;
-    
+
     /* Make main element take up any surplus space to push footer down */
 
         flex: 1 0 auto;
