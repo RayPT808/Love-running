@@ -154,6 +154,11 @@
     flex-grow: 1;
  }
 
+ #signup {
+   background-position: center;
+   position: relative;
+}
+
  #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -191,9 +196,9 @@
     color: #fafafa;
  }
 
+
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 768px) {
-    ...
 
     /* Form */
     #signup {
@@ -217,6 +222,8 @@
        color: #454b1b;
     }
  }
+
+
 
  /* Hero section */
  #hero {
